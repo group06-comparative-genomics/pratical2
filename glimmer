@@ -1,0 +1,190 @@
+tigr-glimmer long-orfs -n -t 1.15 30.fa.txt 30.long-orf-coords
+
+tigr-glimmer extract -t 30.fa.txt 30.long-orf-coords > 30.longorf 
+
+tigr-glimmer build-icm -r 30.icm < 30.longorf
+
+tigr-glimmer glimmer3 -o50 -g110 -t30 30.fa.txt 30.icm 30.glimmertigr
+######03.fa.txt:
+Sequence file = 03.fa.txt
+Excluded regions file = none
+Circular genome = true
+Initial minimum gene length = 90 bp
+Determine optimal min gene length to maximize number of genes
+Maximum overlap bases = 30
+Start codons = atg,gtg,ttg
+Stop codons = taa,tag,tga
+Sequence length = 6232883
+Final minimum gene length = 544
+Number of genes = 3192
+Total bases = 4411104
+
+Sequence file = 03.fa.txt
+Number of sequences = 1
+ICM model file = 03.icm
+Excluded regions file = none
+List of orfs file = none
+Input is NOT separate orfs
+Independent (non-coding) scores are used
+Circular genome = true
+Truncated orfs = false
+Minimum gene length = 110 bp
+Maximum overlap bases = 50
+Threshold score = 30
+Use first start codon = false
+Start codons = atg,gtg,ttg
+Start probs = 0.600,0.300,0.100
+Stop codons = taa,tag,tga
+GC percentage = 43.0%
+Ignore score on orfs longer than 602
+Analyzing Sequence #1
+Start Find_Orfs
+Start Score_Orfs
+Start Process_Events
+Start Trace_Back
+
+###08.fa.txt
+Sequence file = 08.fa.txt
+Excluded regions file = none
+Circular genome = true
+Initial minimum gene length = 90 bp
+Determine optimal min gene length to maximize number of genes
+Maximum overlap bases = 30
+Start codons = atg,gtg,ttg
+Stop codons = taa,tag,tga
+Sequence length = 1855560
+Final minimum gene length = 355
+Number of genes = 1376
+Total bases = 1413408
+
+Sequence file = 08.fa.txt
+Number of sequences = 1
+ICM model file = 08.icm
+Excluded regions file = none
+List of orfs file = none
+Input is NOT separate orfs
+Independent (non-coding) scores are used
+Circular genome = true
+Truncated orfs = false
+Minimum gene length = 110 bp
+Maximum overlap bases = 50
+Threshold score = 30
+Use first start codon = false
+Start codons = atg,gtg,ttg
+Start probs = 0.600,0.300,0.100
+Stop codons = taa,tag,tga
+GC percentage = 34.0%
+Ignore score on orfs longer than 488
+
+###09.fa.txt
+Sequence file = 09.fa.txt
+Excluded regions file = none
+Circular genome = true
+Initial minimum gene length = 90 bp
+Determine optimal min gene length to maximize number of genes
+Maximum overlap bases = 30
+Start codons = atg,gtg,ttg
+Stop codons = taa,tag,tga
+Sequence length = 5443340
+Final minimum gene length = 463
+Number of genes = 3170
+Total bases = 3483573
+
+Sequence file = 09.fa.txt
+Number of sequences = 1
+ICM model file = 09.icm
+Excluded regions file = none
+List of orfs file = none
+Input is NOT separate orfs
+Independent (non-coding) scores are used
+Circular genome = true
+Truncated orfs = false
+Minimum gene length = 110 bp
+Maximum overlap bases = 50
+Threshold score = 30
+Use first start codon = false
+Start codons = atg,gtg,ttg
+Start probs = 0.600,0.300,0.100
+Stop codons = taa,tag,tga
+GC percentage = 50.7%
+Ignore score on orfs longer than 747
+Analyzing Sequence #1
+Start Find_Orfs
+Start Score_Orfs
+Start Process_Events
+Start Trace_Back
+
+###18.fa.txt
+Sequence file = 18.fa.txt
+Excluded regions file = none
+Circular genome = true
+Initial minimum gene length = 90 bp
+Determine optimal min gene length to maximize number of genes
+Maximum overlap bases = 30
+Start codons = atg,gtg,ttg
+Stop codons = taa,tag,tga
+Sequence length = 3738889
+Final minimum gene length = 406
+Number of genes = 2263
+Total bases = 2415450
+
+Number of sequences = 1
+ICM model file = 18.icm
+Excluded regions file = none
+List of orfs file = none
+Input is NOT separate orfs
+Independent (non-coding) scores are used
+Circular genome = true
+Truncated orfs = false
+Minimum gene length = 110 bp
+Maximum overlap bases = 50
+Threshold score = 30
+Use first start codon = false
+Start codons = atg,gtg,ttg
+Start probs = 0.600,0.300,0.100
+Stop codons = taa,tag,tga
+GC percentage = 47.5%
+Ignore score on orfs longer than 681
+Analyzing Sequence #1
+
+###30.fa.txt
+Sequence file = 30.fa.txt
+Excluded regions file = none
+Circular genome = true
+Initial minimum gene length = 90 bp
+Determine optimal min gene length to maximize number of genes
+Maximum overlap bases = 30
+Start codons = atg,gtg,ttg
+Stop codons = taa,tag,tga
+Sequence length = 745751
+Final minimum gene length = 559
+Number of genes = 289
+Total bases = 511101
+
+Sequence file = 30.fa.txt
+Number of sequences = 1
+ICM model file = 30.icm
+Excluded regions file = none
+List of orfs file = none
+Input is NOT separate orfs
+Independent (non-coding) scores are used
+Circular genome = true
+Truncated orfs = false
+Minimum gene length = 110 bp
+Maximum overlap bases = 50
+Threshold score = 30
+Use first start codon = false
+Start codons = atg,gtg,ttg
+Start probs = 0.600,0.300,0.100
+Stop codons = taa,tag,tga
+GC percentage = 38.4%
+Ignore score on orfs longer than 538
+
+
+
+
+
+
+
+
+
